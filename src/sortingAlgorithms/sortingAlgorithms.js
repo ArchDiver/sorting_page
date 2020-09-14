@@ -15,7 +15,7 @@
 //     while (i < firstHalf.length) sortedArray.push(firstHalf[i++]);
 //     while (j < secondHalf.length) sortedArray.push(secondHalf[j++]);
 //     return sortedArray;
-export function mergeSort(array) {
+export function getMergeSort(array) {
     const animations = [];
     if (array.length <= 1) return array;
     const auxArray = array.slice();
@@ -60,5 +60,4 @@ function doMerge(mainArray, startIdx, middleIdx, endIdx, auxArray, animations) {
         });
         mainArray[k++] = auxArray[j++]
     }
-
 }
