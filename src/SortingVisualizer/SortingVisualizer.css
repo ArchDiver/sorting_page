@@ -1,3 +1,14 @@
+body{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(226, 217, 217, 0.7), rgba(142,57,153,0.6)), url(../static/map-of-georgia-max.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+    color: rgb(250, 232, 232);
+    text-decoration: seashell;
+}
 .array-container{
     /* display: flex;
     justify-content: center;
@@ -12,7 +23,7 @@
     background-color: pink;
     display: inline;
     margin: 0 5px; */
-    width: 1px;
+    width: 10px;
     background-color: purple;
     display: inline-block;
     margin: 0 1px;
