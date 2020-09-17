@@ -8,7 +8,7 @@ const baseColor = 'teal'
 
 const SPEED = 1;
 
-const num_of_bars = 159;
+const num_of_bars = 2000;
 
 export default class SortingVisualizer extends React.Component{
     constructor(props){
