@@ -1,6 +1,7 @@
 import React from 'react';
 import { getMergeSortAnimations } from '../sortingAlgorithms/sortingAlgorithms';
 import './SortingVisualizer.css';
+import firebase from '../../firebase.json'
 
 
 const movingColor = 'red'
